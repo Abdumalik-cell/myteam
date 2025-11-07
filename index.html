@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<script src="js/main.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -13,31 +14,66 @@
 	</head>
 	<body>
 		<div class="site-top">
-			<header class="site-header">
-				<div class="container site-header__container">
-					<div class="site-header__info">
-						<a href="index.html">
-							<img src="images/header/logo.svg" alt="logo" />
-						</a>
-						<ul class="site-header__list">
-							<li class="site-header__item">
-								<a class="site-header__link" href="#">home</a>
-							</li>
-							<li class="site-header__item">
-								<a class="site-header__link" href="#">about</a>
-							</li>
-						</ul>
-					</div>
-					<button class="site-header__btn">contact us</button>
-					<button id="menu-btn" class="site-header__menu">
-						<img src="images/hero/menu.svg" alt="img" />
-					</button>
-				</div>
-			</header>
+			<!DOCTYPE html>
+			<html lang="en">
+				<head>
+					<meta charset="UTF-8" />
+					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+					<title>MyTeaTeam</title>
+					<link rel="stylesheet" href="styles.css" />
+					<!-- CSS faylini bog'lash -->
+				</head>
+				<body>
+					<header class="site-header">
+						<div class="container site-header__container">
+							<div class="site-header__info">
+								<a class="site-header__logo" href="index.html">
+									<img src="images/header/logo.svg" alt="logo" />
+								</a>
+								<ul class="site-header__list">
+									<li class="site-header__item">
+										<a class="site-header__link" href="#">home</a>
+									</li>
+									<li class="site-header__item">
+										<a class="site-header__link" href="#">about</a>
+									</li>
+								</ul>
+							</div>
+							<button class="site-header__btn">contact us</button>
+							<button id="menu-btn" class="site-header__menu">
+								<img src="images/hero/menu.svg" alt="menu" />
+							</button>
+						</div>
+					</header>
+
+					<!-- Mobil menyu (yashirin) -->
+					<nav class="mobile-menu" id="mobileMenu">
+						<div class="mobile-menu__overlay"></div>
+						<div class="mobile-menu__content">
+							<button id="close-menu" class="mobile-menu__close">
+								<img src="images/header/close.svg" alt="close" />
+							</button>
+							<ul class="mobile-menu__list">
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="#">home</a>
+								</li>
+								<li class="mobile-menu__item">
+									<a class="mobile-menu__link" href="#">about</a>
+								</li>
+								<li class="mobile-menu__item">
+									<button class="mobile-menu__btn">contact us</button>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+					<script src="script.js"></script>
+					<!-- JS faylini bog'lash -->
+				</body>
+			</html>
 			<section class="hero">
 				<img class="hero-img-absolute" src="images/hero/group.svg" alt="img" />
 				<div class="container hero__container">
-					<img class="hero-img-absolute2" src="images/hero/doira-karochi.svg" alt="img" />
 					<h1 class="hero__title">Find the best <span>talent</span></h1>
 					<div class="hero__info">
 						<div class="hero__info-line"></div>
@@ -46,6 +82,7 @@
 							abundance of global talent. We’re about to change that.
 						</p>
 					</div>
+					<img class="hero-img-absolute2" src="images/hero/doira-karochi.svg" alt="img" />
 				</div>
 			</section>
 		</div>
@@ -98,6 +135,7 @@
 				</div>
 			</section>
 			<section class="succes">
+				<img class="succes__img2" src="images/succes/reviews-bg-left.svg" alt="img" />
 				<div class="container">
 					<h2 class="succes__title">Delivering real results for top companies. Some of our <span>success stories.</span></h2>
 					<ul class="succes__list">
@@ -140,7 +178,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="ready">
+			<!-- <section class="ready">
 				<img class="ready__img" src="images/succes/img.svg" alt="img" />
 				<div class="container">
 					<div class="ready__info">
@@ -200,6 +238,6 @@
 					</div>
 				</div>
 			</div>
-		</footer>
+		</footer>  -->
 	</body>
 </html>
