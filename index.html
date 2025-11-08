@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<script src="js/main.js"></script>
+		<title>MyTeaTeam</title>
+
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -14,63 +14,48 @@
 	</head>
 	<body>
 		<div class="site-top">
-			<!DOCTYPE html>
-			<html lang="en">
-				<head>
-					<meta charset="UTF-8" />
-					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-					<title>MyTeaTeam</title>
-					<link rel="stylesheet" href="styles.css" />
-					<!-- CSS faylini bog'lash -->
-				</head>
-				<body>
-					<header class="site-header">
-						<div class="container site-header__container">
-							<div class="site-header__info">
-								<a class="site-header__logo" href="index.html">
-									<img src="images/header/logo.svg" alt="logo" />
-								</a>
-								<ul class="site-header__list">
-									<li class="site-header__item">
-										<a class="site-header__link" href="#">home</a>
-									</li>
-									<li class="site-header__item">
-										<a class="site-header__link" href="#">about</a>
-									</li>
-								</ul>
-							</div>
-							<button class="site-header__btn">contact us</button>
-							<button id="menu-btn" class="site-header__menu">
-								<img src="images/hero/menu.svg" alt="menu" />
-							</button>
-						</div>
-					</header>
+			<header class="site-header">
+				<div class="container site-header__container">
+					<div class="site-header__info">
+						<a class="site-header__logo" href="index.html">
+							<img src="images/header/logo.svg" alt="logo" />
+						</a>
+						<ul class="site-header__list">
+							<li class="site-header__item">
+								<a class="site-header__link" href="#">home</a>
+							</li>
+							<li class="site-header__item">
+								<a class="site-header__link" href="#">about</a>
+							</li>
+						</ul>
+					</div>
+					<button class="site-header__btn">contact us</button>
+					<button id="menu-btn" class="site-header__menu">
+						<img src="images/hero/menu.svg" alt="menu" />
+					</button>
+				</div>
+			</header>
 
-					<!-- Mobil menyu (yashirin) -->
-					<nav class="mobile-menu" id="mobileMenu">
-						<div class="mobile-menu__overlay"></div>
-						<div class="mobile-menu__content">
-							<button id="close-menu" class="mobile-menu__close">
-								<img src="images/header/close.svg" alt="close" />
-							</button>
-							<ul class="mobile-menu__list">
-								<li class="mobile-menu__item">
-									<a class="mobile-menu__link" href="#">home</a>
-								</li>
-								<li class="mobile-menu__item">
-									<a class="mobile-menu__link" href="#">about</a>
-								</li>
-								<li class="mobile-menu__item">
-									<button class="mobile-menu__btn">contact us</button>
-								</li>
-							</ul>
-						</div>
-					</nav>
+			<nav class="mobile-menu" id="mobileMenu">
+				<div class="mobile-menu__overlay"></div>
+				<div class="mobile-menu__content">
+					<button id="close-menu" class="mobile-menu__close">
+						<img src="images/header/close.svg" alt="close" />
+					</button>
+					<ul class="mobile-menu__list">
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="#">home</a>
+						</li>
+						<li class="mobile-menu__item">
+							<a class="mobile-menu__link" href="#">about</a>
+						</li>
+						<li class="mobile-menu__item">
+							<button class="mobile-menu__btn">contact us</button>
+						</li>
+					</ul>
+				</div>
+			</nav>
 
-					<script src="script.js"></script>
-					<!-- JS faylini bog'lash -->
-				</body>
-			</html>
 			<section class="hero">
 				<img class="hero-img-absolute" src="images/hero/group.svg" alt="img" />
 				<div class="container hero__container">
@@ -79,13 +64,14 @@
 						<div class="hero__info-line"></div>
 						<p class="hero-info__text">
 							Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the
-							abundance of global talent. We’re about to change that.
+							abund ance of global talent. We’re about to change that.
 						</p>
 					</div>
 					<img class="hero-img-absolute2" src="images/hero/doira-karochi.svg" alt="img" />
 				</div>
 			</section>
 		</div>
+
 		<main>
 			<section class="build">
 				<img class="build__img" src="images/build/aylana.png" alt="aylana" />
@@ -177,8 +163,9 @@
 						</li>
 					</ul>
 				</div>
+				<img class="succes-img2" src="images/succes/reviews-bg-right.svg" alt="img" />
 			</section>
-			<!-- <section class="ready">
+			<section class="ready">
 				<img class="ready__img" src="images/succes/img.svg" alt="img" />
 				<div class="container">
 					<div class="ready__info">
@@ -188,23 +175,26 @@
 				</div>
 			</section>
 		</main>
+
 		<footer class="site-footer">
 			<div class="container">
 				<div class="site-footer__inner">
-					<div class="site-footer__info">
-						<a class="site-footer__logo" href="index.html">
-							<img src="images/footer/myteam.svg" alt="logo" />
-						</a>
-						<div class="site-footer__home">
-							<a class="site-footer__link" href="">home</a>
-							<a class="site-footer__link" href="">about</a>
+					<div class="site-footer-info">
+						<div class="site-footer__info">
+							<a class="site-footer__logo" href="index.html">
+								<img src="images/footer/myteam.svg" alt="logo" />
+							</a>
+							<div class="site-footer__home">
+								<a class="site-footer__link" href="">home</a>
+								<a class="site-footer__link" href="">about</a>
+							</div>
 						</div>
-					</div>
-					<div class="site-footer__links">
-						<a class="site-footer__link1" href="#">987 Hillcrest Lane</a>
-						<a class="site-footer__link1" href="#">Irvine, CA</a>
-						<a class="site-footer__link1" href="#">California 92714</a>
-						<a class="site-footer__link1" href="#">Call Us : 949-833-7432</a>
+						<div class="site-footer__links">
+							<a class="site-footer__link1" href="#">987 Hillcrest Lane</a>
+							<a class="site-footer__link1" href="#">Irvine, CA</a>
+							<a class="site-footer__link1" href="#">California 92714</a>
+							<a class="site-footer__link1" href="#">Call Us : 949-833-7432</a>
+						</div>
 					</div>
 					<div class="site-footer__social">
 						<ul class="site-footer__list">
@@ -238,6 +228,9 @@
 					</div>
 				</div>
 			</div>
-		</footer>  -->
+		</footer>
+
+		<script src="js/main.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>
