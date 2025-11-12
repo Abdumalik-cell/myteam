@@ -543,6 +543,10 @@ body {
 	color: #fff;
 }
 
+.site-footer__link:hover {
+	color: #f67e7e;
+}
+
 .site-footer__links {
 	max-width: 165px;
 	width: 90%;
