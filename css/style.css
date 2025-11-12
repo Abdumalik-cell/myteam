@@ -413,7 +413,7 @@ body {
 	margin-bottom: 24px;
 	color: #fff;
 	margin-top: 36px;
-	z-index: 9999999999;
+	z-index: 999;
 	position: relative;
 }
 
@@ -750,7 +750,6 @@ body {
 
 	.hero-img-absolute2 {
 		margin-left: auto;
-		margin-right: 700px;
 	}
 }
 
